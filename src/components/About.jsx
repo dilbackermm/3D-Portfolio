@@ -40,7 +40,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p
-        Variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading -[30px]"
       >
         With over two years of hands-on experience in front-end development, I
@@ -54,8 +54,7 @@ const About = () => {
           <ServiceCard key={service} index={index} {...service} />
         ))}
       </div>
-    </>
-  );
-}
+      </>
+)}
 
 export default SectionWrapper(About, "about")
