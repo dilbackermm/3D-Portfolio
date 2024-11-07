@@ -15,10 +15,9 @@ import {
     git,
     figma,
     docker,
-    meta,
+ mesoki,
+ impel,
     starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -116,57 +115,43 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Android Developer",
+      company_name: "SPACE",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "November 2018- November 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing an android application to learn malayalam language for mentally disabled students.",
+        "Designed User interface in collaboration with developers for sevaral android applications",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Content Designer",
+      company_name: "Mesoki Edu Planet",
+      icon: mesoki,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "December 2019 - February 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed a visual representation of core topics of higher educational subjects for an educational application",
+        "Worked closely with the team to design themes for different subjects for the educational application.",
+        
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Front-end Developer",
+      company_name: "Impel Exports",
+      icon: impel,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and developed responsive and visually appealing web applications using HTML5, CSS3, and JavaScript frameworks like React.js.",
+        "Utilized CSS frameworks such as Bootstrap and Tailwind CSS to create consistent and responsive layouts across various devices and screen sizes",
+        "Created graphical requirements for the website such as illustrations, 3D object models, logo of the company etc.",
+        "Implemented version control using Git and GitHub for efficient team collaboration, code reviews, and project management.",
       ],
     },
+    
+    
   ];
   
   const testimonials = [
