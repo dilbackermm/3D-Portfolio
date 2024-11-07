@@ -15,9 +15,9 @@ import {
     git,
     figma,
     docker,
- mesoki,
- impel,
-    starbucks,
+    mesoki,
+    impel,
+    space,
     carrent,
     jobit,
     tripguide,
@@ -117,8 +117,8 @@ import {
     {
       title: "Android Developer",
       company_name: "SPACE",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: space,
+      iconBg: "#000",
       date: "November 2018- November 2019",
       points: [
         "Developing an android application to learn malayalam language for mentally disabled students.",
@@ -129,7 +129,7 @@ import {
       title: "Content Designer",
       company_name: "Mesoki Edu Planet",
       icon: mesoki,
-      iconBg: "#E6DEDD",
+      iconBg: "#f7cf00",
       date: "December 2019 - February 2022",
       points: [
         "Designed a visual representation of core topics of higher educational subjects for an educational application",

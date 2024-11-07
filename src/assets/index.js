@@ -22,7 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import impel from './company/impel.png'
-import starbucks from "./company/starbucks.png";
+import space from "./company/space.jpeg";
 
 import mesoki from './company/mesoki.jpg';
 
@@ -53,8 +53,8 @@ export {
   typescript,
   threejs,
   mesoki,
-  starbucks,
-impel,
+  space,
+  impel,
   carrent,
   jobit,
   tripguide,
