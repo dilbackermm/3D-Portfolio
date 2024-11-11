@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
+          <p className="text-Orginal text-[18px] font-bold cursor-pointer">
             Dilbacker
           </p>
         </Link>
@@ -32,9 +32,9 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
+                active === link.title ? "text-orginal" : "text-secondary"
               }
-          hover:text-white text-[18px] font-medium cursor-pointer`}
+          hover:text-orginal text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -58,7 +58,7 @@ const Navbar = () => {
                 <li
                   key={link.id}
                   className={`${
-                    active === link.title ? "text-white" : "text-secondary"
+                    active === link.title ? "text-orginal" : "text-secondary"
                   }
           font-poppins font-medium cursor-pointer text-[16px] `}
                   onClick={() => {
