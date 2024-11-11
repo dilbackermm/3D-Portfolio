@@ -4,17 +4,18 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    bootstrap,
     html,
     css,
     reactjs,
-    redux,
+    nextjs,
     tailwind,
-    nodejs,
-    mongodb,
+    blender,
+    illustrator,
     git,
     figma,
-    docker,
+    xd,
+    photoshop,
     mesoki,
     impel,
     space,
@@ -72,29 +73,22 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+   
     {
       name: "Three JS",
       icon: threejs,
@@ -108,9 +102,23 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Adobe XD",
+      icon: xd,
     },
+   
+    {
+      name: "Adobe Illustrator",
+      icon: illustrator,
+    },
+    {
+      name: "Adobe Photoshop",
+      icon: photoshop,
+    },
+    {
+      name: "Blender",
+      icon: blender,
+    },
+   
   ];
   
   const experiences = [
