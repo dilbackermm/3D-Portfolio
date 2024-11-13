@@ -28,9 +28,9 @@ import space from "./company/space.jpeg";
 
 import mesoki from './company/mesoki.jpg';
 
-import carrent from "./carrent.png";
+import impelexports from "./impelexports.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import imexbulk from "./imexbulk.png";
 
 export {
   logo,
@@ -58,7 +58,7 @@ export {
   mesoki,
   space,
   impel,
-  carrent,
+  impelexports,
   jobit,
-  tripguide,
+  imexbulk,
 };

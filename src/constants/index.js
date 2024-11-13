@@ -19,9 +19,9 @@ import {
     mesoki,
     impel,
     space,
-    carrent,
+    impelexports,
     jobit,
-    tripguide,
+    imexbulk,
     threejs,
   } from "../assets";
   
@@ -162,70 +162,44 @@ import {
     
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
+ 
   const projects = [
     {
-      name: "Car Rent",
+      name: "Impel Exoorts",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " A website for a bulk packaging manufacturing company, built from scratch using HTML, CSS, JavaScript, and Bootstrap, designed to showcase their products.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: impelexports,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "UPC",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " A company website developed from scratch using the React framework, Next.js, and Tailwind CSS, with animations created using Framer Motion.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "framermotion",
           color: "pink-text-gradient",
         },
       ],
@@ -233,16 +207,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Imex Bulk",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " A fully static website for a bulk packaging manufacturing company, designed and developed from scratch using HTML, CSS, JavaScript, and Bootstrap. ",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -250,9 +224,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: imexbulk,
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
