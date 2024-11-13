@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-Orginal text-[18px] font-bold cursor-pointer">
+          <p className="text-Orginal text-[18px] font-light cursor-pointer">
             Dilbacker
           </p>
         </Link>

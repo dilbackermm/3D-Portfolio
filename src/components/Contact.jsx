@@ -31,41 +31,38 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-9 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-secondary font-medium mb-4">Your Name</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your name?"
-              className="bg-primary py-4 px-6 placeholder:text-secondary 
+              placeholder="Your Name"
+              className="bg-primary py-3 px-6 placeholder:text-secondary 
              text-secondary rounded-lg outlined-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-secondary font-medium mb-4">Your Email</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email?"
-              className="bg-priamry py-4 px-6 placeholder:text-secondary 
+              placeholder="Your Email"
+              className="bg-priamry py-3 px-6 placeholder:text-secondary 
              text-secondary rounded-lg outlined-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-secondary font-medium mb-4">Your Message</span>
             <textarea
-              rows="7"
+              rows="5"
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
-              className="bg-primary py-4 px-6 placeholder:text-secondary 
+              placeholder="Your Message"
+              className="bg-primary py-3 px-6 placeholder:text-secondary 
              text-secondary rounded-lg outlined-none border-none font-medium"
             />
           </label>
